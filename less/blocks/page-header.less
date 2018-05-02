@@ -1,0 +1,123 @@
+.page-header {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+}
+
+.page-header__logo {
+    width: 105px;
+    height: 23px;
+    background: teal;
+}
+
+.page-header__telefon {
+    display: none;
+}
+
+.page-header__mail {
+    display: none;
+}
+
+.page-header__account {
+    display: none;
+}
+
+.page-header__callback {
+    display: none;
+}
+
+@media (min-width: 660px) {
+    .page-header {
+        margin-top: 35px;
+    }
+    .page-header__logo {
+        width: 153px;
+        height: 33px;
+        background: teal;
+        vertical-align: middle;
+    }
+    .page-header__telefon {
+        display: inline-block;
+        margin-left: 305px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        vertical-align: middle;
+    }
+    .page-header__mail {
+        display: inline-block;
+        width: 20px;
+        height: 18px;
+        background-color: red;
+        font-size: 0;
+        vertical-align: middle;
+        margin-left: 38px;
+    }
+    .page-header__account {
+        display: inline-block;
+        width: 16px;
+        height: 18px;
+        background-color: red;
+        font-size: 0;
+        vertical-align: middle;
+        margin-left: 27px;
+    }
+    .page-header__callback {
+        display: inline-block;
+        height: 49px;
+        width: 200px;
+        margin-left: 30px;
+        background-color: white;
+        border: 2px solid @color-blue;
+        border-radius: 2px;
+        font-weight: bold;
+        padding-right: 27px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .page-header {
+        padding: 0;
+    }
+    .page-header__mail {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        vertical-align: middle;
+        margin-left: 123px;
+        background-color: transparent;
+    }
+    .page-header__account {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        vertical-align: middle;
+         background-color: transparent;
+        margin-left: 27px;
+        margin-left: 115px;
+    }
+    .page-header__telefon {
+        display: inline-block;
+        margin-left: 325px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        vertical-align: middle;
+    }
+    
+    .page-header__callback {
+        display: inline-block;
+        height: 49px;
+        width: 200px;
+        margin-left: 346px;
+        background-color: white;
+        border: 2px solid @color-blue;
+        border-radius: 2px;
+        font-weight: bold;
+        padding-right: 27px;
+    }
+        
+}

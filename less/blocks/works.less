@@ -28,6 +28,10 @@
     opacity: 1;
 }
 
+.works img {
+    display: none;
+}
+
 .works__item--sapphirine {
     background: #022A4C;
 }
@@ -71,6 +75,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 .works img {
@@ -93,8 +98,11 @@
 @media screen and (min-width: 762px) {
 
     .works img {
+        display: block;
         max-width: 320px;
     }
+    
+    
     .works__wrapper {
     height: 230px;
 }
